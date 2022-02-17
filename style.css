@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Overpass:wght@200&display=swap');
 
 body {
-    padding: 0 2%;
+    padding: 0 0%;
     margin: 0;
     font-family: 'Overpass', sans-serif;
+    color : white;
+    background-color: #121214;
 }
 nav {
+    padding: 0 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #202024;
     position: sticky;
     top: O;
 
@@ -44,7 +47,8 @@ nav ul li {
 
 }
 nav ul li:hover {
-    border-bottom-color: black;
+    border-bottom-color: #5329cf;
+    color: #5329cf;
 }
 .page-content {
     margin: 4%;
@@ -74,10 +78,11 @@ nav ul li:hover {
 	padding-bottom: 5px;
 	border-bottom: 1px solid #ccc;
 	cursor: pointer;
+    color: white
 }
 .page-content header button:hover {
-    color : #ccc;
-    border-bottom-color: black;
+    color : #5329cf;
+    border-bottom-color: #5329cf;
 }
 .page-content .presentation-image {
     margin-top: 5%;
@@ -125,7 +130,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 10px;
-	background-color: #000;
+	background-color: #202024;
 	color: white;
 }
 footer .colonne p {
