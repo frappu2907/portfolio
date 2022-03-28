@@ -43,7 +43,6 @@ nav ul {
 nav ul a  {
     margin-left: 20px;
     cursor: pointer;
-    border-bottom: 1px solid white;
     color: white;
 }
 nav ul a li:hover {
@@ -61,7 +60,7 @@ nav ul a li:hover {
     font-size: 5vw;
 }
 
-.page-content header h1 {
+.page-content header h2 {
     margin: 0;
     text-transform: uppercase;
 }
